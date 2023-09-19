@@ -7,15 +7,20 @@ h1{
 }
 
 .pack{
+  background-color: aqua;
+  text-align: center;
+}
+
+.pack>.name{
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.pack>div{
-  background-color: blue;
-  margin: 60px;
-  padding: 10px;
+.pack>.name>div{
+  background-color: aquamarine;
+  margin: 20px;
+  padding: 50px;
 }
 
 
