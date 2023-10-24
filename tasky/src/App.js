@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import './App.css';
 import Task from './component/task';
+import AddTaskForm from './component/Form';
 
 function App() {
 
@@ -31,8 +32,8 @@ function App() {
   return (
     <div className="pack">
         <h1>Tasky</h1>
-        <div className="name">
 
+        <div className="name">
         {taskState.tasks.map((task, index) => (              
           <Task 
             title={task.title}
@@ -45,8 +46,11 @@ function App() {
           />
        ))}
 
+       <AddTaskForm />
 
-        </div>
+      </div>
+
+        
     </div>
   );
 }
