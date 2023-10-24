@@ -75,8 +75,6 @@ function App() {
 
 
 
-
-
   return (
     <div className="pack">
         <h1>Tasky</h1>
